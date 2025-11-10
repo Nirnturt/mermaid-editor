@@ -1,0 +1,77 @@
+{
+  "app": {
+    "title": "Mermaid Editor",
+    "description": "Create and export Mermaid diagrams easily",
+    "editorErrorFallback": "The editor encountered an issue. Please try again."
+  },
+  "editor": {
+    "input": "Input",
+    "preview": "Preview",
+    "placeholder": "Enter Mermaid code here...",
+    "previewErrorPrompt": "Invalid Mermaid code. Please check your input."
+  },
+  "mermaidErrors": {
+    "noTypeDetected": "No diagram type detected. Please ensure your code starts with a valid diagram type (e.g., graph TD, sequenceDiagram, classDiagram, pie, etc.).",
+    "syntaxError": "Syntax error in diagram. Please check for typos, missing brackets/quotes, or incorrect syntax structure.",
+    "parseError": "Failed to parse diagram. The structure might be invalid or too complex.",
+    "defaultError": "An error occurred while rendering the diagram. Please check your code or try simplifying the diagram."
+  },
+  "export": {
+    "title": "Export",
+    "svg": "Export as SVG",
+    "png": "Export as PNG",
+    "jpg": "Export as JPG",
+    "webp": "Export as WebP",
+    "scale": "Scale",
+    "estimatedSize": "Estimated Size",
+    "estimatedDimensions": "Estimated Dimensions"
+  },
+  "exportPanel": {
+    "copySvg": "Copy SVG",
+    "copyImage": "Copy image",
+    "includeBackground": "Include background",
+    "filename": "Filename",
+    "filenamePlaceholder": "Enter filename here",
+    "noPreview": "Please generate a preview first",
+    "selectFormat": "Select format",
+    "padding": "Canvas padding",
+    "calculating": "Calculating…",
+    "paddingOptions": {
+      "none": "None",
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "minimize": "Minimize Export Panel",
+    "open": "Open Export Panel"
+  },
+  "settings": {
+    "theme": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System",
+    "language": "Language",
+    "english": "English",
+    "chinese": "Chinese"
+  },
+  "notifications": {
+    "exportSuccess": "Exported successfully",
+    "exportError": "Failed to export",
+    "copySuccess": "Copied to clipboard",
+    "copyError": "Failed to copy"
+  },
+  "errorBoundary": {
+    "title": "Application Error",
+    "message": "We encountered an unexpected issue. Please try again or refresh the page.",
+    "details": "Error Details",
+    "tryAgain": "Try again",
+    "goHome": "Go Home",
+    "networkError": "Network connection error. Please check your internet connection.",
+    "mermaidError": "Diagram rendering error. Please check your diagram syntax.",
+    "storageError": "Storage error. Please check your browser settings.",
+    "asyncError": "Asynchronous operation error.",
+    "renderError": "Component rendering error.",
+    "generalError": "An error occurred",
+    "defaultError": "An unexpected error occurred."
+  }
+} 

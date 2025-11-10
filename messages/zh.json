@@ -1,0 +1,77 @@
+{
+  "app": {
+    "title": "Mermaid 编辑器",
+    "description": "轻松创建和导出 Mermaid 图表",
+    "editorErrorFallback": "编辑器出现问题，请稍后重试。"
+  },
+  "editor": {
+    "input": "输入",
+    "preview": "预览",
+    "placeholder": "在此处输入 Mermaid 代码...",
+    "previewErrorPrompt": "Mermaid 代码无效。请检查您的输入。"
+  },
+  "mermaidErrors": {
+    "noTypeDetected": "未检测到图表类型。请确保您的代码以有效的图表类型声明开始（例如：graph TD, sequenceDiagram, classDiagram, pie 等）。",
+    "syntaxError": "图表存在语法错误。请检查是否存在拼写错误、缺少括号/引号或不正确的语法结构。",
+    "parseError": "解析图表失败。图表结构可能无效或过于复杂。",
+    "defaultError": "渲染图表时发生错误。请检查您的代码或尝试简化图表。"
+  },
+  "export": {
+    "title": "导出",
+    "svg": "导出为 SVG",
+    "png": "导出为 PNG",
+    "jpg": "导出为 JPG",
+    "webp": "导出为 WebP",
+    "scale": "缩放比例",
+    "estimatedSize": "预计大小",
+    "estimatedDimensions": "预计尺寸"
+  },
+  "exportPanel": {
+    "copySvg": "复制SVG代码",
+    "copyImage": "复制图片",
+    "includeBackground": "包含背景",
+    "filename": "文件名",
+    "filenamePlaceholder": "在此输入文件名",
+    "noPreview": "请先生成预览",
+    "selectFormat": "图片格式",
+    "padding": "图片边距",
+    "calculating": "计算中…",
+    "paddingOptions": {
+      "none": "无间距",
+      "small": "小间距",
+      "medium": "中间距",
+      "large": "大间距"
+    },
+    "minimize": "最小化导出面板",
+    "open": "打开导出面板"
+  },
+  "settings": {
+    "theme": "主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "系统",
+    "language": "语言",
+    "english": "英文",
+    "chinese": "中文"
+  },
+  "notifications": {
+    "exportSuccess": "导出成功",
+    "exportError": "导出失败",
+    "copySuccess": "已复制到剪贴板",
+    "copyError": "复制失败"
+  },
+  "errorBoundary": {
+    "title": "应用程序错误",
+    "message": "我们遇到了一个意外的问题。请重试或刷新页面。",
+    "details": "错误详情",
+    "tryAgain": "再试一次",
+    "goHome": "回到首页",
+    "networkError": "网络连接错误。请检查您的网络连接。",
+    "mermaidError": "图表渲染错误。请检查您的图表语法。",
+    "storageError": "存储错误。请检查您的浏览器设置。",
+    "asyncError": "异步操作错误。",
+    "renderError": "组件渲染错误。",
+    "generalError": "发生了一个错误",
+    "defaultError": "发生了一个意外错误。"
+  }
+} 
